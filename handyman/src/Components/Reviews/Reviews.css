@@ -1,0 +1,88 @@
+.reviews {
+  position: relative;
+  
+}
+
+
+.next-btn,
+.prev-btn {
+  border-radius: 50%;
+  background-color: #725417;
+  width: 40px;
+  padding: 10px;
+  margin: 40px;
+  transform: translateY(-50%);
+  position:absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+  
+}
+.next-btn:hover,
+.prev-btn:hover{
+  background-color: rgba(163, 116, 73, 0.911);
+}
+
+.next-btn{
+  margin-right: 20px;
+}
+
+.prev-btn {
+  left: 0; 
+  margin-left: 20px;
+}
+
+
+
+.slider{
+  /* border: 2px solid black;  */
+  /* margin: 2%; */
+  overflow: hidden;
+  
+}
+
+.slider ul{
+  display: flex;
+  width: 250%;
+  transition: 0.5s ease-in-out;
+  /* transform: translateX(-80%) */
+}
+
+.slider ul li{
+  list-style: none;
+  padding: 20px;
+  width: 50%;
+  
+}
+
+.slide {
+  box-shadow: 10px 10px 5px rgba(184, 158, 134, 0.801);
+  padding: 40px; 
+  border-radius: 10px;
+  
+  /* border: 2px solid red; */
+  color: grey;
+  line-height: 1.5em;
+  /* background: black; */
+  /* width: 80%; */
+  
+}
+.slider img {
+  width: 15%;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid #725417;
+}
+.slider .user-info{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.slider .user-info h3{
+  color: #aa6010;
+}
+/* .slider p{
+  width: 60%
+} */
